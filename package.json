@@ -1,0 +1,36 @@
+{
+  "name": "bowen1-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "bin": {
+    "bowen1-cli": "./bin/bowen1-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawangbowen/bowen1-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawangbowen/bowen1-cli/issues"
+  },
+  "homepage": "https://github.com/dawangbowen/bowen1-cli#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.4"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "execa": "^5.0.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "path": "^0.12.7",
+    "qiankun": "^2.6.3",
+    "shelljs": "^0.8.4",
+    "typescript": "^4.5.4"
+  }
+}
